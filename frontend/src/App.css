@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.img{
+  display: grid;
+  /* padding-left:10%; */
+  height:500px;
+  width:35.5cm;
+}
+body{
+   background-color:rgb(0, 255, 76)
+}
+.bg{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: grey;
+  font-weight: bolder;
+  background-color: #f0eee2;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar Css */
+.navbar{
+  background:linear-gradient(to left, #cc66ff 0%, #ffcccc 100%);
+  height: 2cm;
+  
+}
+.navbar .nav-link{
+ color: black;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.navbar .nav-link:hover{
+color:white;
+text-decoration: dashed;
+}
+
+/* CreateAccount Css */
+
+.form-label{
+  font-weight: bold;
+  border-radius: 40px; 
+  background-color:aqua;
+}
+.heading{
+  text-align: center;
+}
+ .cform .form-control{
+  background-color: rgb(241, 238, 238);
+  width:100%;
+}
+.cform{
+  padding-left: 100%;
+}
+
+.dform .form-control{
+  width:20%;
+}
+.box{
+  margin: auto;
+  width: 30%;
+  border: 3px solid white;
+  box-shadow: 0 10px  15px #fa8e8e;
+  border-radius: 40px;
+  padding: 10px;
+}
+.deposit,.withdraw{
+  margin: auto;
+  width: 10cm;
+  height:10cm;
+  border: 3px solid rgb(252, 218, 252);
+  box-shadow: 0 10px  15px #998999;
+  border-radius: 40px;
+  padding: 10px;
+}
+.lable{
+  border-color: #dfded7;
+  border-radius: 20px;
+  background-color: rgb(252, 246, 246);
+  width:100%;
+  height:1.5cm;
+}
+.btnsubmit{
+  background-color: #f88c7d;
+  box-shadow: 2px 2px rgb(213, 214, 211);
+  border-radius: 30px;
+  border-style: none;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.col-12{
+  text-align: center;
+
+}
+.col-12 .form-check-input{
+  text-align: center;
+} 
+.banklogo{ 
+  width: 80px;
+  height: 95px;
+}
+/*Deposit and Withdraw  */
+
+#another_btn{
+  display: flex;
+  align-items: center;
+  border-style: groove;
+  border-radius: 20px;
+  margin:50px auto;
+  font-size:20px;
+  width: 50%;
+  font-style:oblique;
+  font-weight: bold;
+  background-color: #f8f899;
+  background-image: linear-gradient(45deg, #dfded7, #fa7d6c);
+}
+
+.success{
+  font-size: 30px;
+  text-align: center;
+  
+}
+ 
+
+/* AllData Css */
+
+#table,th,td{
+  border: 3px solid rgb(185, 187, 185);
+   padding: 12px; 
+  border-collapse: collapse;
+  width: 30px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3b3455;
+  color:beige;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 450px;
+  margin-top: -40px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.display{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  /* padding-left: 100px; */
+  margin-left: 400px;
+}
+
+
